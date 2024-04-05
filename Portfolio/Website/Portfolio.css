@@ -1,0 +1,301 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(11, 1, 39);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  color: aliceblue;
+  height: 70px;
+  margin: auto;
+  background-color: rgb(23, 24, 62);
+}
+
+nav ul li {
+  list-style: none;
+  margin: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  font-size: larger;
+  color: rgb(61, 90, 252);
+}
+
+nav ul {
+  display: flex;
+  margin-top: 5px;
+}
+
+.first {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  padding-top: 20px;
+}
+.left {
+  font-size: 20px;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+.leftsec {
+  color: rgb(246, 241, 241);
+  width: 40%;
+  font-size: 35px;
+  margin-top: 180px;
+}
+
+.red {
+  color: rgb(240, 37, 61);
+}
+
+.rightsec {
+  padding-top: 50px;
+}
+
+#element {
+  color: rgb(98, 103, 243);
+}
+
+hr {
+  margin: 40px;
+}
+
+.about {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  padding: 20px;
+  background-color: rgb(14, 4, 51);
+}
+
+.head {
+  width: 30%;
+  padding: 150px;
+  padding-top: 200px;
+  padding-right: 20px;
+  color: white;
+  font-size: 50px;
+  font-family: "Rubik Doodle Shadow";
+  text-align: center;
+}
+
+.cont {
+  color: white;
+  padding: 20px;
+  margin-top: 100px;
+}
+.skills {
+  color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  padding: 20px;
+  background-color: rgb(14, 4, 51);
+  text-align: center; /* Center the content */
+}
+
+.leftskills {
+  font-size: 30px;
+  font-family: "Rubik Doodle Shadow";
+  padding-top: 150px; /* Adjusted padding for better alignment */
+  width: 30%; /* Utilize the full width */
+  color: rgb(246, 241, 241);
+}
+
+.centerskills {
+  padding-top: 30px; /* Adjusted padding for better alignment */
+  width: 35%;
+  padding-left: 200px;
+}
+
+.rightskills {
+  padding-top: 30px;
+  width: 35%; /* Utilize the full width */
+}
+
+.skills ol {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.skills li {
+  margin-bottom: 15px;
+  font-size: 18px; /* Adjusted font size for better readability */
+}
+
+.skills b {
+  color: rgb(134, 20, 176);
+}
+
+.skills i {
+  margin-right: 5px;
+}
+
+.education {
+  color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  padding: 20px;
+  background-color: rgb(14, 4, 51);
+  text-align: left;
+}
+
+.leftedu {
+  font-size: 30px;
+  font-family: "Rubik Doodle Shadow";
+  padding-left: 30px;
+  padding-top: 30px;
+  margin: auto;
+  width: 20%;
+}
+
+.rightedu {
+  padding-top: 30px;
+  margin: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid rgb(61, 90, 252);
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: rgb(23, 24, 62);
+  color: white;
+}
+
+.projects {
+  color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  padding: 20px;
+  background-color: rgb(14, 4, 51);
+  text-align: center;
+}
+
+.leftpro {
+  font-size: 30px;
+  font-family: "Rubik Doodle Shadow";
+  padding-top: 50px; /* Adjusted padding for better alignment */
+  width: 30%; /* Utilize the full width */
+  color: rgb(246, 241, 241);
+}
+
+.rightpro {
+  padding-top: 50px;
+  width: 65%; /* Adjusted width for better alignment */
+  text-align: left; /* Align text to the left */
+}
+
+.rightpro ul {
+  list-style: none;
+  padding: 0;
+}
+
+.rightpro li {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.rightpro li:before {
+  content: "\2022"; /* Add bullet point before each list item */
+  color: rgb(134, 20, 176);
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.exp {
+  color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  padding: 20px;
+  background-color: rgb(14, 4, 51);
+  text-align: left; /* Align text to the left */
+}
+
+.leftexp {
+  font-size: 30px;
+  font-family: "Rubik Doodle Shadow";
+  padding-top: 50px; /* Adjusted padding for better alignment */
+  width: 40%; /* Utilize the full width */
+  color: rgb(246, 241, 241);
+  padding-left: 100px;
+}
+
+.rightexp {
+  padding-top: 50px;
+  width: 65%; /* Adjusted width for better alignment */
+  text-align: left; /* Align text to the left */
+}
+
+.rightexp ul {
+  list-style: none;
+  padding: 0;
+}
+
+.rightexp li {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.rightexp li:before {
+  content: "\2022"; /* Add bullet point before each list item */
+  color: rgb(134, 20, 176);
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+footer {
+  background-color: rgb(182, 181, 235);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  height: 200px;
+  margin: auto;
+  color: rgb(23, 24, 62);
+  padding: 20px; /* Added padding for better spacing */
+}
+
+.icons {
+  display: flex;
+  flex-direction: row; /* Change to column direction for vertical alignment */
+  align-items: center; /* Center items horizontally */
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+footer p {
+  margin-top: 10px; /* Added margin for better spacing between text and icons */
+}
+
+footer small {
+  display: block;
+  margin-top: 10px; /* Adjusted margin for better spacing between lines */
+}
